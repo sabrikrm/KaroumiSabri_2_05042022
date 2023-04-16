@@ -120,11 +120,26 @@ body {
     
 }
 
-.lien_header {
+.menu {
     display: flex;
     justify-content: flex-end;
   
 }
+
+#button_recherche{
+    
+    background: #0065FC;
+    width: 132px;
+height: 49px;
+color: white;
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+}
+
+#search {
+    color: black;
+}
+
 
 
 
