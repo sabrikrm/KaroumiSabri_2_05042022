@@ -27,30 +27,36 @@
         <main>
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre-ville ou en pleine nature</p>
-        <form action="/search" method="get">
-            <label for="search"><i class="fa-solid fa-location-dot" style="color: #000000;"></i></label>
-            <input type="text" placeholder="Marseille, France" id="search" name="q">
+        <form id="formulaire_recherche" action="/search" method="get">
+            <label for="search"><div id="icone_map"><i class="fa-solid fa-location-dot" style="color: #000000;"></i>
+            </div>
+        </label> 
+            <input id="button_input" type="text" placeholder="Marseille, France" id="search" name="q">
             <button id="button_recherche" type="submit">Rechercher</button>
           </form>
+
           <div class="section_filtres">
             <h3>Filtres</h3>
-          </div>
-
-         <div>
+        <div>
           <i class="fa-solid fa-money-bill-wave"></i>
           Économique
         </div>
 
-    <div><i class="fa-solid fa-person"></i>
+    <div>
+        <i class="fa-solid fa-person"></i>
     Familial</div>
 
-    <div><i class="fa-solid fa-heart"></i>
+    <div>
+        <i class="fa-solid fa-heart"></i>
     Romantique</div>
 
-    <div><i class="fa-solid fa-fire"></i>
+    <div>
+        <i class="fa-solid fa-fire"></i>
     Nos pépites</div>
-
+          </div>
+<div class="info">
     <i class="fa-light fa-circle-info"></i> Plus de 500 logements sont disponibles dans cette ville
+</div>
         
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
