@@ -17,11 +17,12 @@
 <body>
     <div class="main-container">
         <header>
-            <div class="logo"><img src="images/logo/Booki.png" alt="logo du site"></div>
             <nav class="menu">
-                
-                    <a href="index.html">Hébergements</a></li>
-                    <a href="index.html">Activités</a></li> 
+                <div class="logo"><img src="images/logo/Booki.png" alt="logo du site"></div>
+                <ul>
+                    <li> <a href="#hebergements">Hébergements</a></li>
+                  <li>   <a href="#activites">Activités</a></li>   
+                </ul>      
             </nav>
         </header>
         <main>
@@ -31,7 +32,7 @@
             <label for="search"><div id="icone_map"><i class="fa-solid fa-location-dot" style="color: #000000;"></i>
             </div>
         </label> 
-            <input id="button_input" type="text" placeholder="Marseille, France" id="search" name="q">
+            <input id="button_input" type="text" placeholder="  Marseille, France" id="search" name="q">
             <button id="button_recherche" type="submit">Rechercher</button>
           </form>
 
@@ -55,7 +56,7 @@
     Nos pépites</div>
           </div>
 <div class="info">
-    <i class="fa-solid fa-info"></i><p> de 500 logements sont disponibles dans cette ville</p></div>
+    <i class="fa-solid fa-info"></i><p>plus de 500 logements sont disponibles dans cette ville</p></div>
 
 
             <div class="hebergements-and-populaires">
@@ -135,6 +136,46 @@
                         </div>
                     </article>
 
+                    <article class="card">
+                        <img src="./images/hebergements/marcus-loke.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                        <div class="card-content">
+                            <div class="card-txt">
+                                <h3 class="card-title">Auberge La Canebière</h3>
+                                <p class="card-subtitle">Nuit à partir de 25<span class="euro">€</span></p>
+                            </div>
+                            <div class="card-rating">
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                <span class="sr-only">Note de 4 sur 5</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img src="./images/hebergements/nicate-lee.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                        <div class="card-content">
+                            <div class="card-txt">
+                                <h3 class="card-title">Auberge Le Panier</h3>
+                                <p class="card-subtitle">Nuit à partir de 23<span class="euro">€</span></p>
+                            </div>
+                            <div class="card-rating">
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                                <span class="sr-only">Note de 4 sur 5</span>
+                            </div>
+                        </div>
+                    </article> 
+
+                   <p class="afficher">Afficher Plus</p>
+
+                    
+
                 </div>
 
 
@@ -199,8 +240,24 @@
                     </div>
                 </section>
             </div>
+           
         </main>
-        <footer></footer>
+        <footer>
+            <section class="activites">
+                <div class="activites-title">
+                    <h2 class="section-title">Activités à Marseille</h2>
+                </div>
+            <article class="card">
+                <img src="./images/activites/reno-laithienne.jpg" alt="Image du vieux port">
+                <div class="card-content">
+                    <div class="card-txt">
+                        <h3 class="card-title">Vieux-Port</h3>
+                        
+                    </div>
+                </div>
+            </article>
+        </section>
+        </footer>
     </div>
 </body>
 
