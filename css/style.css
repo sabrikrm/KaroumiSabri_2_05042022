@@ -128,7 +128,7 @@ justify-content: space-between;
 }
 
 .hebergements-cards .card-rating {
-   
+   margin: 50px;
 }
 
 /****** Populaires ***********/
@@ -300,8 +300,57 @@ ul {
 
 /****** activites ***********/
 
+.activites_content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4%;
+}
+.activites_card {
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    max-height: 400px;
+    width: 22%;
+    width: 297.5px;
+height: 380px;
+}
+.activites_card_img {
+    width: 297.5px;
+    height: 380px;
+}
+.activites_card_img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}
+.activites_card_title {
+    color: black;
+    width: 297.5px;
+height: 380px;
+}
 
 
+
+/****** footer ***********/
+
+
+footer {
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 50px 50px 35px 50px;
+}
+
+footer ul {
+    padding-right: 20%;
+}
+footer li {
+    padding-bottom: 13px;
+}
+footer a {
+    color: #000;
+}
 
 
 
