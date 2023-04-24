@@ -128,7 +128,7 @@ justify-content: space-between;
 }
 
 .hebergements-cards .card-rating {
-    margin-bottom: 5px;
+   
 }
 
 /****** Populaires ***********/
@@ -154,7 +154,6 @@ height: 144px;
 
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    position: absolute;
 width: 123px;
 height: 144px;
 left: 0px;
@@ -164,7 +163,7 @@ top: 0px;
 .populaires-cards .card-content {
     width: 67%;
     padding-left: 15px;
-    display: flex;
+   
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
@@ -299,19 +298,10 @@ ul {
     list-style: none;
 }
 
-.activites.cards img {
-    width: 235.33px;
-    height: 110px;
+/****** activites ***********/
 
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
 
-}
 
-.activites.cards card {
-    width: 297.5px;
-height: 59px;
-}
 
 
 
