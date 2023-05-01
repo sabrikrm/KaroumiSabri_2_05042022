@@ -84,7 +84,6 @@ body {
     width: fit-content;
     display: inline-block;
     width: 250.33px;
-height: 207.25px;
 align-items: center;
 padding: 0px 0px 15px;
 gap: 4px;
@@ -129,6 +128,12 @@ justify-content: space-between;
 
 .hebergements-cards .card-rating {
    margin: 50px;
+}
+
+.afficher {
+    font-weight: 700;
+font-size: 18px;
+
 }
 
 /****** Populaires ***********/
@@ -340,25 +345,33 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
-    
+    padding: 0px;  
     width: 1340px;
     height: 163px;
-    
-    /* Grey */
-    
     background: #F2F2F2;
+  
+   
 }    
 
 footer ul {
     font-weight: 700;
     font-size: 18px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #000000;
+  
 }
 footer li {
+  
+    font-size: 16px;
     
 }
 footer a {
-    color: #000;
+    
 }
 
 
