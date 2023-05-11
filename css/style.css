@@ -75,7 +75,7 @@ body {
     align-items: center;
     padding: 15px 15px;
     justify-content: flex-end;
-    margin-top: -25px;
+    margin-top: -44px;
     
 }
 
@@ -234,8 +234,7 @@ top: 0px;
 }
 
 .populaires-cards .card-rating {
-    margin-bottom: 5px;
-    margin-top: 45px;
+  margin-top: 48px;
 }
 
 .menu .ul {
@@ -340,7 +339,10 @@ cursor: pointer;
     transition-duration: 0.1s;
     font-weight: bold;
 }
+.section_filtres div:hover {
+    background:  #DEEBFF;;
 }
+
 
 .fa-solid.fa-info{
    
@@ -556,5 +558,13 @@ footer div {
     margin-left: 5%;
     margin-top: 15px;
   }
+  .populaires-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
 }
+  }
+}
+
 
