@@ -68,6 +68,7 @@ body {
 .header_img {
     height: 19px;
    width: 61px;
+   margin-top: 20px;
 }
 
 .header_nav {
@@ -108,7 +109,9 @@ body {
     box-sizing: border-box;
     height: auto;
 }
-
+.card-subtitle {
+    margin: 10px;
+}
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
@@ -170,6 +173,7 @@ margin-right: 17px;
 
 .hebergements-cards .card-subtitle {
    margin-left: 10px;
+   
     
 
 }
@@ -234,7 +238,7 @@ top: 0px;
 }
 
 .populaires-cards .card-rating {
-  margin-top: 48px;
+  margin-top: 50px;
 }
 
 .menu .ul {
@@ -549,6 +553,16 @@ a {
     border-top: transparent;
     border-bottom: 3px solid #0065FC;
 }
+.hebergements-and-populaires {
+    flex-direction: column;
+}
+
+.card img {
+        
+    height: 124px; 
+    object-fit: cover;
+    display: block;
+  }
     
 footer div {
     display: block;
@@ -559,12 +573,26 @@ footer div {
     margin-top: 15px;
   }
   .populaires-cards {
-    display: flex;
+    
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
 }
-  }
+  
+.hebergements {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    
+}
+.section_filtres {
+    width: 100%;
+}
+
+.fa-solid.fa-info {
+    margin-right: 1rem;
+}
+
 }
 
 
