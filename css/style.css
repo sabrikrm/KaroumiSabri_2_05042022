@@ -62,13 +62,15 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+   
 }
 
 .header_img {
     height: 19px;
    width: 61px;
    margin-top: 20px;
+   margin: auto;
+   margin-left: -33px;
 }
 
 .header_nav {
@@ -76,7 +78,7 @@ body {
     align-items: center;
     padding: 15px 15px;
     justify-content: flex-end;
-    margin-top: -38px;
+    margin-top: auto
     
 }
 
@@ -84,8 +86,12 @@ body {
     width: 120px;
     padding: 30px;
     text-align: center;
-    font-weight: 500;
+    font-weight: 400;
     border-top: 4px solid transparent;
+}
+
+.header_nav ul {
+    display: flex;
 }
 
 .header_nav_link:hover {
@@ -132,7 +138,7 @@ display: flex;
     display: inline-block;
     width: 250.33px;
 align-items: center;
-padding: 0px 0px 15px;
+
 gap: 4px;
 margin-right: 17px;
 
@@ -179,13 +185,15 @@ margin-right: 17px;
 }
 
 .hebergements-cards .card-rating {
-   margin-left: 10px;
+   
 
 }
 
 .afficher {
     font-weight: 700;
 font-size: 18px;
+margin-top: 40px;
+margin-bottom: -6px;
 
 }
 
@@ -221,7 +229,7 @@ top: 0px;
 .populaires-cards .card-content {
     width: 67%;
     padding-left: 15px;
-   
+   display: flex;
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
@@ -238,7 +246,7 @@ top: 0px;
 }
 
 .populaires-cards .card-rating {
-  margin-top: 50px;
+  
 }
 
 .menu .ul {
@@ -276,12 +284,14 @@ font-size: 18px;
 line-height: 21px;
 text-align: center;
 color: #000000;
+
+border: solid 1px #F2F2F2;
 }
 
 #formulaire_recherche{
     display: flex;
 height: 45px;
-margin-top: 15px;
+margin-top: 33px;
 }
 
 .searchinput::placeholder {
@@ -311,6 +321,7 @@ height: 49px;
 color: white;
     border: 1px solid #0065FC;
     border-radius: 0px 15px 15px 0px;
+    cursor: pointer;
 }
 
 .section_filtres {
@@ -323,7 +334,7 @@ color: white;
 font-weight: 700;
 align-items: center;
 padding: 4px 19px;
-ga
+margin-left: -17px;
 
 }
 
@@ -374,12 +385,14 @@ info :hover {
 
 ul {
    
-    gap: 30px;
+    
     list-style: none;
 }
 
 /****** activites ***********/
-
+#activites {
+    margin-top: 56px;
+}
 .activites_content {
     display: flex;
     justify-content: space-between;
