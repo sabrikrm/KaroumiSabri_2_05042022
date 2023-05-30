@@ -119,6 +119,7 @@
   .logo {
     width: 61px;
     height: 19px;
+    cursor: pointer;
   }
   
   .nav-list {
