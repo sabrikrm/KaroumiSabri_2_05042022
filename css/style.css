@@ -261,7 +261,7 @@
   
   .hebergements-cards .card {
     width: 29.5%;
-    margin: 0 0 30px 0;
+    margin-bottom: 30px;
   }
   
   .hebergements-cards .card-link {
