@@ -405,6 +405,10 @@
     .filters-title {
       margin-bottom: 20px;
     }
+
+    .filters-list {
+      margin-top: 20px;
+    }
   
     .section-title {
       margin: 0 0 30px 0;
@@ -499,6 +503,7 @@
     .filters-list {
       flex-wrap: wrap;
       gap: 10px;
+      margin-top: 20px;
     }
   
     .filters-content {
